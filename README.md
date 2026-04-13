@@ -122,7 +122,7 @@ Before patching the APK, choose where the game will run.
 
 Use your PC's LAN IP, for example:
 
-- `192.168.5.170`
+- `192.168.x.x`
 
 ### Option B: Android Studio Emulator on the Same PC
 
@@ -147,7 +147,7 @@ Use Lunar Tear's patcher against the decompiled APK directory.
 ### For a Real Device / LAN Emulator
 
 ```powershell
-python .\scripts\patch_apk.py .\client\patched --server-ip 192.168.5.170 --http-port 8080
+python .\scripts\patch_apk.py .\client\patched --server-ip 192.168.x.x --http-port 8080
 ```
 
 ### For Android Studio Emulator
@@ -195,7 +195,7 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\start_lunar_tear.ps1" -HostI
 ### For Real Device / LAN Emulator
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File ".\scripts\start_lunar_tear.ps1" -HostIp 192.168.5.170 -HttpPort 8080
+powershell -ExecutionPolicy Bypass -File ".\scripts\start_lunar_tear.ps1" -HostIp 192.168.x.x -HttpPort 8080
 ```
 
 The launcher should verify assets and then run the server in the foreground so logs are visible.
