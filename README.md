@@ -349,5 +349,3 @@ If the app connects but stalls very early, the most likely cause is not basic ne
 - wrong target IP for the chosen emulator/device
 
 ---
-
-If you improve this guide with a more reliable Android Studio AVD recommendation, that would be the main area still worth tightening up.
