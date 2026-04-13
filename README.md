@@ -1,6 +1,8 @@
 # Lunar Tear Guide
 
-A worked Windows setup guide for getting the NieR Re[in]carnation private server **Lunar Tear** running.
+Please Note the following is what I was able to accomplish on my own and with the aide of Codex AI. The true source for any guide or implementation will always be at https://github.com/Walter-Sparrow/lunar-tear
+
+A working Windows setup guide for getting the NieR Re[in]carnation private server **Lunar Tear** running.
 
 This guide is based only on the path that actually worked in practice. It does **not** try to document every possible setup path.
 
